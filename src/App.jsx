@@ -8,9 +8,11 @@ import Post from './Post.jsx'
 // example how import with named export
 // here I must use the same name as the component was exported
 import {Button} from "./Button.jsx";
+import {Header} from "./componets/Header";
 
 function App() {
     return (<div>
+        <Header/>
         <h1>Hello World</h1>
 
         {/*
