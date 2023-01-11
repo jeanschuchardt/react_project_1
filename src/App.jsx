@@ -9,31 +9,19 @@ import Post from './Post.jsx'
 // here I must use the same name as the component was exported
 import {Button} from "./Button.jsx";
 import {Header} from "./componets/Header";
+
+import styles from './App.module.css'
 import './global.css'
+import {Sidebar} from "./componets/Sidebar";
 
 function App() {
     return (<div>
         <Header/>
-        <h1>Hello World</h1>
 
-        {/*
-            here I add to props to the component POST
-            author and content
-            to the Component access the props I will add it there
-        */}
-        <Post
-            author="Jean Burda"
-            content="sherpa"
+        <div className={styles.wrapper}>
+            <Sidebar/>
 
-        />
-
-        <Post
-            author="Marcus Mello"
-            content="pixieset"
-        />
-
-
-        <Button/>
+        </div>
 
 
     </div>)
