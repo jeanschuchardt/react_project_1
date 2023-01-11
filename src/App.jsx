@@ -9,6 +9,7 @@ import Post from './Post.jsx'
 // here I must use the same name as the component was exported
 import {Button} from "./Button.jsx";
 import {Header} from "./componets/Header";
+import './global.css'
 
 function App() {
     return (<div>
