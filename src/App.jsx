@@ -13,7 +13,23 @@ function App() {
     return (<div>
         <h1>Hello World</h1>
 
-        <Post/>
+        {/*
+            here I add to props to the component POST
+            author and content
+            to the Component access the props I will add it there
+        */}
+        <Post
+            author="Jean Burda"
+            content="sherpa"
+
+        />
+
+        <Post
+            author="Marcus Mello"
+            content="pixieset"
+        />
+
+
         <Button/>
 
 
